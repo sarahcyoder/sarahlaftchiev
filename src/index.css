@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  font-size: 5rem;
+}
+
+.headerContainer {
+  height: 75vh;
+  width: 95%;
+}
+
+.headerContainer h1 {
+  padding: 8rem 8rem 0;
+  margin-bottom: 1rem;
+}
+
+.headerContainer h2 {
+  margin-top: 10rem;
+}
+
+.headerContainer .contact {
+  text-align: right;
+  font-size: 1rem;
+}
+
+.headerContainer .contact a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.bodyContainer {
+  margin: 10rem;
+}
+
+.bodyContainer h3 {
+  font-size: 4rem;
+}
