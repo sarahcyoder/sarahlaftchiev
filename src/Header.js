@@ -7,7 +7,7 @@ const Header = () => {
 
   let i = 0;
   const typeHelloWorld = () => {
-    const text = "And I can even make it look pretty";
+    const text = "And I can even make it look pretty.";
     // move through each letter to text and repeat function until finished
     if (i < text.length) {
       document.getElementById("typedIntro").innerHTML += text[i];
@@ -18,8 +18,12 @@ const Header = () => {
 
   return (
     <div className="headerContainer">
-    <h1>Building Better Software</h1>
-      <div className="headerContainer" id="typedIntro"></div>
+      <div className="contact">
+        <a href="mailto:sarahlaftchiev@gmail.com">Get in Touch</a>
+      </div>
+      <h1>Building Better Software</h1>
+      <div id="typedIntro"></div>
+      <h2>Sarah Laftchiev</h2>
     </div>
   )
 }
