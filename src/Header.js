@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 const Header = () => {
   useEffect(() => {
     typeHelloWorld();
-  }, []);
+  },);
 
   let i = 0;
   const typeHelloWorld = () => {
