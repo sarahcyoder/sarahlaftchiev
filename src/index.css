@@ -17,22 +17,25 @@ h1 {
 }
 
 .headerContainer {
-  height: 75vh;
-  width: 95%;
+  height: 80vh;
+  width: 100%;
+  padding: 1rem 0;
 }
 
 .headerContainer h1 {
-  padding: 8rem 8rem 0;
+  padding: 2rem 1rem 1rem;
   margin-bottom: 1rem;
+  font-size: 3.5rem;
 }
 
 .headerContainer h2 {
-  margin-top: 10rem;
+  margin-top: 4rem;
 }
 
 .headerContainer .contact {
   text-align: right;
   font-size: 1rem;
+  width: 90%;
 }
 
 .headerContainer .contact a {
@@ -41,10 +44,97 @@ h1 {
   text-decoration: none;
 }
 
+#typedIntro {
+  margin: auto;
+  width: 95%;
+  font-size: 1.2rem;
+}
+
 .bodyContainer {
-  margin: 10rem;
+  padding: 2.5rem 0;
+  margin: 0 1rem;
 }
 
 .bodyContainer h2 {
-  font-size: 4rem;
+  font-size: 2rem;
+}
+
+.bodyContainer p a {
+  color: #ff5109;
+  font-weight: bold;
+}
+
+.bodyContainer div.project {
+  margin-bottom: 2.5rem;
+}
+
+.bodyContainer div.learn-more {
+  margin: 5rem 0 2.5rem;
+}
+
+.bodyContainer div.learn-more p {
+  font-size: 1.5rem;
+}
+
+.footerContainer {
+  padding: 5rem 1rem;
+  background-color: black;
+  color: white;
+}
+
+@media (min-width: 400px) {
+  .headerContainer {
+    height: 80vh;
+    width: 95%;
+    margin-top: 1rem;
+  }
+  .headerContainer h1 {
+    padding: 4rem 1rem 1rem;
+    margin-bottom: 1rem;
+    font-size: 5rem;
+  }
+  .headerContainer h2 {
+    margin-top: 5rem;
+  }
+  .bodyContainer {
+    padding: 4rem 1rem;
+    margin: 0 1rem;
+  }
+  .bodyContainer h2 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .headerContainer {
+    height: 80vh;
+    width: 95%;
+    margin-top: 1rem;
+  }
+  .headerContainer h1 {
+    padding: 6rem 1rem 1rem;
+    margin-bottom: 1rem;
+    font-size: 5rem;
+  }
+  .headerContainer .contact {
+    width: 100%;
+  }
+  .headerContainer h2 {
+    margin-top: 8rem;
+  }
+  #typedIntro {
+    font-size: 1.5rem;
+  }
+  .bodyContainer {
+    padding: 7rem 5rem;
+  }
+  .bodyContainer h2 {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .headerContainer h2 {
+    margin-top: 10rem;
+  }
 }
