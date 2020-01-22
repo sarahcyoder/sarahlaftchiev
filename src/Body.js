@@ -1,4 +1,5 @@
 import React from 'react';
+import Resume from './files/resume.pdf';
 
 const Header = () => {
 
@@ -20,6 +21,7 @@ const Header = () => {
       </div>
       <div className="learn-more">
         <h2>Learn More</h2>
+        <p><a href={Resume} target="_blank" rel="noopener noreferrer">Resume</a></p>
         <p><a href="https://github.com/sarahcyoder" target="_blank" rel="noopener noreferrer">Github</a></p>
         <p><a href="https://www.linkedin.com/in/sarahcyoder/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
       </div>
