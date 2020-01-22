@@ -1,5 +1,6 @@
 import React from 'react';
 import Resume from './files/resume.pdf';
+import icon from './img/woman-programmer.png';
 
 const Header = () => {
 
@@ -25,6 +26,7 @@ const Header = () => {
         <p><a href="https://github.com/sarahcyoder" target="_blank" rel="noopener noreferrer">GitHub</a></p>
         <p><a href="https://www.linkedin.com/in/sarahcyoder/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
       </div>
+      <img src={icon} alt="Engineering software." />
     </div>
   )
 }

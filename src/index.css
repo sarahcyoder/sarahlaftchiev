@@ -76,6 +76,11 @@ h1 {
   font-size: 1.5rem;
 }
 
+img {
+  width: 200px;
+  margin: 2rem 1rem 0 4rem;
+}
+
 .footerContainer {
   padding: 5rem 1rem;
   background-color: black;
@@ -131,10 +136,18 @@ h1 {
   .bodyContainer h2 {
     font-size: 4rem;
   }
+  img {
+    margin: 2rem 1rem 0 5rem;
+    width: 250px;
+  }
 }
 
 @media (min-width: 1000px) {
   .headerContainer h2 {
     margin-top: 10rem;
+  }
+  img {
+    margin: 2rem 1rem 0 5rem;
+    width: 250px;
   }
 }
