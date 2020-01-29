@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.36a8e39d.chunk.css",
+    "main.js": "/static/js/main.ec9f4b6b.chunk.js",
+    "main.js.map": "/static/js/main.ec9f4b6b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ceee1826.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ceee1826.js.map",
+    "static/js/2.a61d5f1d.chunk.js": "/static/js/2.a61d5f1d.chunk.js",
+    "static/js/2.a61d5f1d.chunk.js.map": "/static/js/2.a61d5f1d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.89805093845bd6b52da952f092c4ccda.js": "/precache-manifest.89805093845bd6b52da952f092c4ccda.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.36a8e39d.chunk.css.map": "/static/css/main.36a8e39d.chunk.css.map",
+    "static/js/2.a61d5f1d.chunk.js.LICENSE": "/static/js/2.a61d5f1d.chunk.js.LICENSE",
+    "static/media/App.css": "/static/media/header-bg.354eb737.jpg",
+    "static/media/resume.pdf": "/static/media/resume.6c526957.pdf",
+    "static/media/woman-programmer.png": "/static/media/woman-programmer.5c89d2f6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ceee1826.js",
+    "static/js/2.a61d5f1d.chunk.js",
+    "static/css/main.36a8e39d.chunk.css",
+    "static/js/main.ec9f4b6b.chunk.js"
+  ]
+}
